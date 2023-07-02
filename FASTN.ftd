@@ -1,0 +1,4 @@
+-- import: fastn 
+-- fastn.package: helloWorld
+-- fastn.dependency: fifthtry.github.io/doc-site
+-- fastn.dependency: ayushsoni1010.github.io/ui-packages as package

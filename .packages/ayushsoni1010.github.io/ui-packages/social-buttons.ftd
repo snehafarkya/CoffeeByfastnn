@@ -1,0 +1,33 @@
+;; -- import: dependencies...
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+;; ********** Social Buttons Component **********
+
+-- component social-button-wrapper:
+ftd.image-src image:
+string link:
+
+-- ftd.container:
+link: $social-button-wrapper.link
+open-in-new-tab: true
+padding-top.px: 8
+padding-bottom.px: 8
+padding-left.px: 12
+padding-right.px: 12
+border-radius.px: 6
+background.solid: #e2e8f0
+
+-- ftd.image:
+src: $social-button-wrapper.image
+width.fixed.px: 18
+height.fixed.px: 20
+margin-top.px: 3
+
+-- end: ftd.container
+
+-- end: social-button-wrapper
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------

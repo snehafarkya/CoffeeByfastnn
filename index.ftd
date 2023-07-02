@@ -1,0 +1,85 @@
+-- import: fifthtry.github.io/doc-site as ds
+-- import: helloWorld/assets
+-- import: package/social-buttons as social
+
+-- ds.page: The Captivating Journey of Coffee☕
+site-logo: $assets.files.images.logo.png 
+
+-- ds.image:
+src: $assets.files.images.coffee.avif
+
+Coffee is a beloved beverage that has a rich history dating back centuries. Its origin can be traced to the ancient coffee forests of Ethiopia, where the story of coffee began. According to legend, a goat herder named Kaldi noticed that his goats became energized and lively after consuming the berries of a certain plant. Intrigued, he tried the berries himself and experienced a similar invigorating effect. This discovery led to the cultivation and consumption of coffee, which spread throughout the Arabian Peninsula and eventually reached the rest of the world✨. 
+
+-- ds.h1: Have a look at delicious Coffee's around the world
+
+-- ftd.row:
+spacing.fixed.px: 15
+wrap: true
+background.solid: #a97653
+align-content: top-center
+padding.px: 10
+
+-- ftd.image:
+src: $assets.files.images.espresso.jpeg
+width.fixed.px: 220
+
+-- ftd.image:
+src: $assets.files.images.cappuccino.jpg
+width.fixed.px: 220
+
+-- ftd.image:
+src: $assets.files.images.latte.jpg
+width.fixed.px: 220
+height.fixed.px: 147
+
+-- ftd.image:
+src: $assets.files.images.america.jpg
+width.fixed.px: 220
+
+-- ftd.image:
+src: $assets.files.images.coff.webp
+width.fixed.px: 220
+height.fixed.px: 148 
+
+-- ftd.image:
+src: $assets.files.images.esp.jpg
+width.fixed.px: 220
+
+-- end: ftd.row
+
+-- ds.h1: Different types of Coffee 
+
+- Espresso: Espresso is a concentrated form of coffee made by forcing hot water under high pressure through finely ground coffee beans. It has a strong flavor, rich crema (a layer of foam on top), and is the foundation for many other coffee-based drinks.
+- Cappuccino: Cappuccino is made by combining equal parts of espresso, steamed milk, and milk foam. It is typically served in a small cup and often garnished with cocoa or cinnamon on top.
+- Latte: A latte is similar to a cappuccino but has more steamed milk and less foam. It is made with a shot of espresso topped with steamed milk, and it can be flavored with syrups such as vanilla or caramel.
+- Americano: An Americano is made by diluting a shot of espresso with hot water. It has a similar strength to traditional brewed coffee but with a different flavor profile.
+- Macchiato: There are two types of macchiatos: espresso macchiato and latte macchiato. An espresso macchiato is a shot of espresso "stained" with a small amount of milk. A latte macchiato, on the other hand, is made by pouring steamed milk over a shot of espresso. 
+
+
+These are just a few examples of the many types of coffee available. Each type offers a unique taste experience, allowing coffee enthusiasts to explore and find their preferred flavors and preparations.
+
+-- ds.h3: Connect with me here: 
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- social.social-button-wrapper:
+link: https://www.linkedin.com/in/sneha_farkya/
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link: https://twitter.com/sneha-farkya
+image: $assets.files.images.twitter.png
+
+-- social.social-button-wrapper:
+link: https://github.com/snehafarkya
+image: $assets.files.images.github.png
+
+-- social.social-button-wrapper:
+link: https://www.instagram.com/sing_with_sneha/
+image: $assets.files.images.instagram.png
+
+
+-- end: ftd.row
+
+-- end: ds.page
